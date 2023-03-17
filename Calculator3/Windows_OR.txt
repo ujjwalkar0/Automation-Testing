@@ -1,0 +1,498 @@
+btnClear=Name->Clear
+btnNumber=Name->{0}
+btnPlus=Name->Plus
+windowCalculator=Name->Calculator
+windowExcel=Name->Excel
+btnEquals=Name->Equals
+expectedvalue=AccessibilityId->CalculatorResults\0Name->{0}
+calMode=AccessibilityId->Header
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#======================================================================================
+
+txt_Editor = Name->Text Editor
+
+Google_Search = /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input
+
+txt_Password_SystemLogin = //*[contains(@ClassName,'TEdit')]
+btn_OK_SystemLogin = //*[contains(@Name,'OK')]
+Icon_CaseFinder_PowerPathClient = //*[@Name='Main Toolbar']//Button[3]
+Btn_Find_CaseFinder = //*[@Name='Find']
+Btn_Select_CaseFinder = //*[@Name = 'Select']
+Btn_Close_topwindow = //*[@Name='Close']
+Tab_SearchCriteria_CaseFinder = //*[@Name='Search Criteria']
+txt_UserName_SystemLogin = Xpath->//*[contains(@ClassName,'TEdit')]{{2}}
+Chkbox_ChangePass_SystemLogin = name->Change password
+tab_Results_CaseFinder = Name->Results
+Check_property = ClassName->TX12
+txt_AccessionNo_CaseFinder = ClassName->TGroupBox\0ClassName->TttDBEdit{{18}}
+
+#txt_AccessionNo_CaseFinder = Name->Search Criteria\0ClassName->TPanel{{2}}\0ClassName->TGroupBox\0ClassName->TttDBEdit{{17}}
+#txt_AccessionNo_CaseFinder  = Xpath->"/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@ClassName=\"TfrmPatientAndCaseFinder\"][@Name=\"Case Finder\"]/Pane[@ClassName=\"TPanel\"]/Tab[@ClassName=\"TttPageControl\"]/Pane[@ClassName=\"TTabSheet\"][@Name=\"Search Criteria\"]/Pane[@ClassName=\"TPanel\"][2]/Pane[@ClassName=\"TGroupBox\"][@Name=\" Case \"]/Edit[@ClassName=\"TttDBEdit\"][18]"
+# ClassName->TfrmPatientAndCaseFinder\0ClassName->TPanel\0ClassName->TttPageControl\0Name->Search Criteria\0ClassName->TPanel{{2}}\0->ClassName->TGroupBox\0ClassName->TttDBEdit{{18}}
+
+#------------------------
+btn_Cases_Neighbourhood1 = Name->Cases{{2}}
+txtbox_AccessionNo_CaseInfo = ClassName->TfrmAccession\0ClassName->TPanel\0ClassName->TPanel\0ClassName->TttDBEdit{{3}}
+
+
+
+lookup_Patient_PatientFinder =  classname->TfrmAccession\0classname->TPanel\0classname->TPanel\0classname->TttDBComboDlg{{2}}\0Classname->TBtnWinControl
+
+
+
+txtbox_lastname_patientfinder = Classname->TGroupBox\0classname->TttDBEdit{{4}}
+
+txtbox_firstname_patientfinder = Classname->TGroupBox\0classname->TttDBEdit{{3}}
+
+btn_Find_Patientfinder = Name->Find
+
+btn_Select_Patientfinder = Name->Select
+txtbx_pwd_LoginPage=//*[@id='Password']
+
+btn_Neighbourhood_main = //*[@Name='Main Toolbar']/Button[2]
+
+btn_OK_patientinfo = Name->OK
+btn_OK_patientidentifiers = Name->OK
+btn_OK_ConcurrentCase = Name->OK
+
+tab_Specimen_Case = Name->Specimens
+
+grid_Specimen_codecell = Classname->TttPageControl\0classname->TTabSheet\0classname->TttDBGrid
+grid_Specimen_lookup = Classname->TppDBLookupComboDlg\0classname->TBtnWinControl
+
+txtbox_Find_Findspecimen = Classname->TEdit
+
+btn_Findnow_Specimensearch = Name->Find Now
+btn_select_Specimensearch = Name->Select
+
+tab_General_Case = ClassName->TfrmAccession\0Name->General
+
+Lookup_Code_Generaltab = Classname->TppDBLookupComboDlg\0classname->TBtnWinControl
+
+txtbox_find_referringphysician = classname->TPanel\0classname->TEdit
+
+btn_FindNow_refphysician = Classname->TPanel\0Name->Find Now	
+
+btn_Select_refphysician = Name->Select
+
+tab_Results_CaseInfo = Name->Results
+btn_EditResults_Caseinfo = Name->Edit Results...
+
+Confirm_Yes_Confirmwindow = Name->Yes
+btn_Signout_Caseinfo = Name->Signout...
+txtbox_confirmPass_signout = Classname->TEdit
+btn_Ok_Signout = Name->OK
+
+###########Word##############
+
+Menu_PowerPathResults_Word = Name->MsoDockTop\0ClassName->MsoWorkPane\0ClassName->NetUInetpane\0Name->Ribbon Tabs\0Name->PowerPath Results
+txtbox_SearchText_Word = Name->MsoDockLeft\0Name->Navigation\0ClassName->NetUInetpane\0Name->Search document
+btn_SaveandReturn_Word = Name->Save and Return
+Btn_UpdateStatus_Word = Name->Yes
+drpdown_NewStep_CaseStatus = ClassName->TttPageControl\0ClassName->TGroupBox\0ClassName->TttDBLookupCombo
+btn_OK_CaseStatusword = Name->OK
+
+
+label_Patientname_Wordaddin =  Xpath->//*[@LocalizedControlType='table']{{1}}\0xpath->//*[@LocalizedControlType='item']{{7}}
+
+label_PageContent_Wordaddin = Name->Page 1 content
+label_PageContent2_Wordaddin = Name->Page 2 content
+label_Page1_Wordaddin = Name->Page 1
+
+label_FooterContent_Wordaddin = Name->First Page Footer -Section 1-
+
+#Name->First Page Header -Section 1-
+
+#\0Xpath->//*[@LocalizedControlType='table']{{1}}\0xpath->//*[@LocalizedControlType='table']{{6}}
+
+#Classname->_WwF\0classname->_WwB\0classname->_WwG\0Name->Page 1\0->
+
+
+Btn_Cancel_LoginPowerpath = Name->Cancel
+==================
+
+#CoPath
+
+Copath_Loginwindow = Name->CoPathPlus
+
+Btn_Exit_Login = AccessibilityId->1017
+
+Btn_Yes_Exit= Name->z_w_modal_msg.z_cb_one
+
+============
+
+CoPath_Login = Classname->FNWNS3170
+
+CoPath_UserID = AccessibilityId->1018
+
+CoPath_UserID_Xpath = Xpath->//*[@AutomationId='1018']
+
+CoPath_UserID_multipath = Classname->FNWNS3170\0AccessibilityId->1018
+CoPath_Password_multipath = Classname->FNWNS3170\0AccessibilityId->1019
+CoPath_Password_Invalid = AccessibilityId->1019999
+
+#//Pane[@Name='none'][@ClassName='FNUDO3126']/Pane[@Name='none'][@ClassName='FNUDO3126']/Pane[@Name='none'][@ClassName='FNUDO3126']/Pane[@ClassName='PBVisualExt']/Pane[@ClassName='FNUDO3126'][4]/Pane[@ClassName='PBVisualExt'][4]
+
+CoPath_Specimen_btn = AccessibilityId->2001{{8}}
+
+#\0AccessibilityId->2001{{3}}
+
+CoPath_Signon_button = AccessibilityId->1016
+
+===========
+
+#Powerpath word
+wordaddin_Check = classname->OpusApp
+
+================
+
+Server_txtbox_Login = Classname->TComboBox\0classname->Edit
+
+Server_dropdown_Login = Classname->TComboBox
+
+#TttDBComboBox
+
+Database_dropdown_Login = ClassName->TttDBComboBox
+
+Combobox_Cases_Home=Classname->TppexpComboBox
+ImportImage_TBDCombobox_window = ClassName->TfrmImportedImageProperties
+
+Combobox_ImageType = Classname->TDBComboBox{{2}}
+
+TppDBIncCombo_CaseType = Classname->TppDBIncCombo
+
+
+TppDBIncCombo_InsuranceClass = Classname->TppDBIncCombo
+
+
+TttDBLookupCombo_CaseType_CaseFinder = Classname->TGroupBox\0Classname->TttDBLookupCombo{{4}}
+
+
+TppDBIncLookupCombo_FinancialClass_Insurancecarriar = Classname->TGroupBox\0classname->TppDBIncLookupCombo{{3}}
+
+#SwitchWindow
+PowerPath_LoginWindow_SwitchWindow = ClassName->TfrmLogin
+Powerpath_ClientWindow_Name = Name->PowerPath Client
+Powerpath_Messgeform_XPath = XPath->//*[@ClassName='TMessageForm']
+Powerpath_Findcase = ClassName->TfrmMain
+PowerPath_CaseFinder = classname->TfrmPatientAndCaseFinder
+Powerpath_PatientCaseFinder = Classname->TfrmPatientAndCaseFinder
+Powerpath_PatientInfo = classname->TfrmPatient
+Powerpath_Patidentifiers = classname->TfrmCasePatientIdentifiers
+Powerpath_Messgeform = classname->TMessageForm
+Powerpath_RecordsearchDlg = classname->TfrmRecordSearchDlg
+Powerpath_PatientInfo_muktilevel = classname->TfrmPatient\0classname->TfrmPatienttt
+Powerpath_PatientInfo_Invalid = classname->TfrmPatienttt
+#PowerPath_LoginWindow_SwitchWindow  = Xpath->//*[contains(@ClassName,'TEdit')]{{2}}
+CoPath_Home_Specimens = Name->CoPathPlus (copath)
+Window_Confirm = Name->Confirm
+Powerpath_ModuleManagement_Window = Name->Sunquest Modules Management
+
+
+==============
+
+
+
+#######################################
+txt_Password_SystemLogin = //*[contains(@ClassName,'TEdit')]
+btn_OK_SystemLogin = //*[contains(@Name,'OK')]
+Icon_CaseFinder_PowerPathClient = //*[@Name='Main Toolbar']//Button[3]
+Btn_Find_CaseFinder = //*[@Name='Find']
+Btn_Select_CaseFinder = //*[@Name = 'Select']
+Btn_Close_topwindow = //*[@Name='Close']
+Tab_SearchCriteria_CaseFinder = //*[@Name='Search Criteria']
+
+editPasswordField=testleft->editPasswordField
+loginOKButton=testleft->loginOKButton
+iconCaseFinder=testleft->iconCaseFinder
+tabSearchCriteria=testleft->tabSearchCriteria
+btnCaseFind=testleft->btnCaseFind
+btnCaseSelect=testleft->btnCaseSelect
+btnOKDatabaseAlert=testleft->btnOKDatabaseAlert
+##########################################
+
+
+btn_Click_Neighbourhood = Name->Setup
+btn_Insurance_Neighbourhood = Name->Insurance Carriers
+
+btn_InsuranceCarrier_Neighbourhood = Name->Insurance Carrier
+
+Cross_Insurance_Carriers = AccessibilityId->Close
+
+Window_Confirm_No = Name->No
+
+btn_ClearForm_CaseInfo = Name->Clear Form
+Tab_Images_CaseInfo = Name->Images
+
+Textarea_Images = ClassName->TThumbnailList
+Rightclick_Options = Name->Context
+
+Option_ImportfromFile = Name->Import From Files...
+
+Dlg_Selcetimage = Name->Select Images To Import
+
+Dlg_Filepath = Name->File name:{{2}}
+Dlg_Openbutton = Name->Open
+
+Window_NewImageProp = Classname->TfrmImportedImageProperties
+
+
+Drpdown_ImageType_Imagemport = className->TfrmImportedImageProperties\0Classname->TPageControl\0ClassName->TTabSheet\0classname->TDBComboBox{{2}}
+
+txtbox_accession_CaseFinder = Name->Case Finder\0Classname->TPanel\0classname->TttPageControl\0Classname->TTabSheet\0classname->TPanel{{2}}\0ClassName->TGroupBox\0Classname->TttDBEdit{{11}}
+
+
+Close_Window = Classname->TfrmAccession\0Name->Close
+
+new_Window = Classname->ComboLBox
+
+
+find_case = TestLeft->find_case
+
+GridCell_Coll_Date_CaseInfo = TestLeft->GridCell_Coll_Date_CaseInfo
+
+Grid_Specimen = testleft->Grid_Specimen
+
+Grid_History = TestLeft->Grid_History
+
+tab_History_CaseInfo = Name->History
+
+Window_InsertSpecimen_option = Name->Context
+
+Spceimen_Grid = Name->Specimens\0Classname->TPanel\0classname->TttDBGrid
+
+InsertSpecimen_Option = Name->Insert Specimen
+
+Window_Specimen_Selection = ClassName->TfrmRecordSearchDlg
+
+
+radiobtn_Slides_CaseINfo = Xpath->//*[@LocalizedControlType='radio button']\0Xpath->//*[contains(@Name,'Slides')]
+
+GridCell_Slides_CaseInfo = TestLeft->GridCell_Slides_CaseInfo
+
+
+notepad_Check = Testleft->notepad_Check
+
+Btn_PowerPathModules_Neighbourhood = Name->PowerPath Modules
+
+btn_Management_Neighbourhood = Name->Management
+
+dropdown_SelectModule_Modmanagement = AccessibilityId->lookUpEditSelect\0Xpath->//*[@LocalizedControlType='edit']
+
+dropdown_Role_Modmanagement = AccessibilityId->lookUpEditFormLevelRole\0Xpath->//*[@LocalizedControlType='edit']
+
+Legacy_Check = Xpath->//*[@LegacyIAccessible.Value='Accession Series']
+ModuleManagement = TestLeft->ModuleManagement
+
+Role_Permission = Name->Item Name row 0
+
+Access_Permission_1 = Name->Access Type row 0
+
+
+
+AccessionNumber_Grid = TestLeft->AccessionNumber_Grid
+
+btn_GYNMolecularBatchExplorer = Name->GYN Molecular Batch Explorer
+
+txtbx_Username_LoginPage=//*[@id='UserName']
+
+
+INvalid_Window = ClassName->Invalid
+
+===========
+
+Facility_Window = Name->Select Signout Facility
+btn_OK_Facility = Name->OK
+
+accessionno = TestLeft->accessionno
+
+usernameTextbox =//*[@id="orm-login-userName"]
+passwordTextbox =//*[@id="orm-login-password"]
+
+
+
+
+
+# ************************************* Powerpath Login page  ****************************
+loginWindow = ClassName->TfrmLogin
+loginUsernameTextbox = ClassName->TfrmLogin\0ClassName->TEdit{{2}}
+loginPasswordTextbox = ClassName->TfrmLogin\0ClassName->TEdit{{1}}
+loginServerDropdown = ClassName->TfrmLogin\0ClassName->TComboBox
+loginDBNameDropdown = ClassName->TfrmLogin\0ClassName->TttDBComboBox
+loginOKButton = Name->OK
+loginReturnButton = Name->Return
+loginCancelButton = Name->Cancel
+selectFacilityWindow = Name->Select Signout Facility 
+selectFacilityFacilityDropdown = Name->Select Signout Facility\0Name->pnlFacility\0ClassName->TttDBLookupCombo
+selectFacilityOKButton = Name->Select Signout Facility\0ClassName->TPanel\0ClassName->TPanel\0Name->OK
+
+# ************************************* Application Main Page
+fileMenu = //*[@ClassName='TfrmMain']/*[@Name='Application']/MenuItem[1]
+toolMenu = //*[@ClassName='TfrmMain']/*[@Name='Application']/MenuItem[7]
+imageCaseMenu = //*[@ClassName='TfrmMain']/*[@Name='Application']/MenuItem[5] 
+imageCaseSelectionItems = //*[@ClassName='TfrmMain']/*[@ClassName='#32768']/MenuItem[3]
+closeAllMenuItem = //*[@ClassName='TfrmMain']/Menu/MenuItem[5]
+refreshButton = //*[@ClassName='TfrmMain']/*[@ClassName='TttControlBar']/*[@ClassName='TttToolbar' and @Name='Explorer Toolbar']/Button[9]
+logoutMenuOption = //*[@ClassName='TfrmMain']/Menu/MenuItem[11]
+exitMenuOption = //*[@ClassName='TfrmMain']/Menu/MenuItem[12]
+noWindowOpenLogoutButton = //*[@ClassName='TfrmMain']/Menu/MenuItem[5]
+singleFacilityLogoutMenuOption = //*[@ClassName='TfrmMain']/Menu/MenuItem[5]
+multipleFacilityLogoutMenuOption = //*[@ClassName='TfrmMain']/Menu/MenuItem[6]
+statusBar = testleft->statusBar
+statusBarFacilityCell = //*[@ClassName='TfrmMain']/*[@ClassName='TfcStatusBar']/*[@LocalizedControlType='text'][6]
+contextPopupMenu = Name->Context
+contextMenuOption = Name->Context\0Name->{0}
+menu2 = //*[@ClassName='TfrmMain']/*[@Name='Application']/MenuItem[2]
+changeFacilityMenuOption = //*[@ClassName='TfrmMain']/Menu/MenuItem[7]
+
+# ************************************* Patients Form
+savePatientButton = //*[@ClassName='TfrmMain']/*[@ClassName='TttControlBar']/*[@ClassName='TttToolbar' and @Name='Data Form']/Button[2]
+saveCaseButton = //*[@ClassName='TfrmMain']/*[@ClassName='TttControlBar']/*[@ClassName='TttToolbar' and @Name='Data Form']/Button[1]
+#Demographics tab
+patientsWindow = ClassName->TfrmPatient
+patientsNewPatientButton = //*[@ClassName='TfrmMain']/*[@ClassName='TttControlBar']/*[@ClassName='TttToolbar' and @Name='Data Form']/Button[1]
+patientsLastNameTextbox = Name->pnlClientArea\0ClassName->TttPanel\0ClassName->TttDBEdit{{4}}
+patientsFirstNameTextbox = Name->pnlClientArea\0ClassName->TttPanel\0ClassName->TttDBEdit{{3}}
+patientsMiddleNameTextbox = Name->pnlClientArea\0ClassName->TttPanel\0ClassName->TttDBEdit{{2}}
+patientsSuffixTextbox = Name->pnlClientArea\0ClassName->TttPanel\0ClassName->TttDBEdit{{1}}
+patientsPostalCodePopUpWindow = ClassName->TfrmMultipleZip
+patientsAddressStreet1Textbox = Name->pnlClientArea\0Name->Demographics\0Name-> Address \0ClassName->TttDBEdit{{6}}
+patientsAddressStreet2Textbox = Name->pnlClientArea\0Name->Demographics\0Name-> Address \0ClassName->TttDBEdit{{5}}
+patientsCityTextbox = Name->pnlClientArea\0Name->Demographics\0Name-> Address \0ClassName->TttDBEdit{{4}}
+patientsStateTextbox = Name->pnlClientArea\0Name->Demographics\0Name-> Address \0ClassName->TttDBEdit{{3}}
+patientsPostalCodeTextbox = Name->pnlClientArea\0Name->Demographics\0Name-> Address \0ClassName->TttDBEdit{{2}}
+patientsCountryTextbox = Name->pnlClientArea\0Name->Demographics\0Name-> Address \0ClassName->TttDBEdit{{1}}
+patientSelectZipCodePopupButton = Name->Postal Codes\0Name->Select
+patientHomePhoneNumberTextbox = Name-> Phone numbers\0ClassName->TInplaceEdit
+patientsMRNGrid = //*[@Name=' Medical record numbers ']
+patientsMRNPane = //*[@Name=' Medical record numbers ']/Pane[@ClassName='TttDBGrid']
+patientsMRNCell = //*[@Name=' Medical record numbers ']/Pane[@ClassName='TttDBGrid']/Edit[@ClassName='TwwInplaceEdit']
+patientsGenderDropdown = Name-> General information \0ClassName->TttDBComboBox{{1}}
+patientsSSNTextbox = Name-> General information \0ClassName->TttDBEdit{{3}}
+patientsDOBTextbox = Name-> General information \0ClassName->TttDBEdit{{2}}
+patientsRaceDropdown = Name-> General information \0ClassName->TttDBComboBox{{4}}
+patientsMarriedStatusDropdown = Name-> General information \0ClassName->TttDBComboBox{{5}}
+patientsCountryOfBirthDropdown = Name-> Register identifiers\0ClassName->TppDBLookupComboDlg{{2}}
+#Billing accounts tab
+patientsBillingAccountsTab = Name->pnlClientArea\0ClassName->TttPanel{{2}}\0ClassName->TttPageControl\0Name->Billing Accounts
+patientsBillingAccountsGrid = Name->pnlClientArea\0ClassName->TttPanel{{2}}\0Name->Billing Accounts\0ClassName->TPanel\0ClassName->TttDBGrid
+
+# ************************************* Case Information Form
+casesWindow = ClassName->TfrmAccession
+casesNewCaseButton = //*[@ClassName='TfrmMain']/*[@ClassName='TttControlBar']/*[@ClassName='TttToolbar' and @Name='Data Form']/*[@LocalizedControlType='split button'][1]
+casesCaseNumberTextbox = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']//Pane[@ClassName='TPanel']/Edit[@ClassName='TttDBEdit'][3]
+casesCaseTypeCombobox = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Pane[@ClassName='TPanel']/Edit[@ClassName='TttDBLookupCombo'][1]
+caseStatusCombobox = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Pane[@ClassName='TPanel']/Edit[@ClassName='TttDBComboDlg'][1]
+casesCaseStatusButton = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Pane[@ClassName='TPanel']/Edit[@ClassName='TttDBComboDlg'][1]/*[@ClassName='TBtnWinControl']
+casesGeneralTab = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/TabItem[@Name='General']
+casesReqDataTab = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/TabItem[@Name='Req Data']
+casesSpecimenTab = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/TabItem[@Name='Specimens']
+casesResultsTab = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/TabItem[@Name='Results']
+casesImagesTab = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/TabItem[@Name='Images']
+casesSpecimenGrid = ClassName->TfrmAccession\0ClassName->TttPageControl\0ClassName->TTabSheet\0ClassName->TPanel{{1}}\0ClassName->TttDBGrid
+casesResultsLogButton = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/Pane[@Name='Results']//Pane[@ClassName='TPanel'][2]/*[@Name='Results Log...']
+selectPatientIdentifiersWindow = ClassName->TfrmCasePatientIdentifiers
+selectPatientIdentifiersCancelButton = ClassName->TfrmCasePatientIdentifiers\0ClassName->TDBFormBtnPanel\0Name->Cancel
+#Results Tab
+casesLMPTextbox = Name-> Requisition, visit and other case information \0ClassName->TttDataLayoutWorkSpace\0ClassName->TttDBEdit{{3}}
+casesEditResultsButton = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/Pane[@Name='Results']//Pane[@ClassName='TPanel'][2]/*[@Name='Edit Results...']
+casesSignOutButton = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/Pane[@Name='Results']//Pane[@ClassName='TPanel'][2]/*[@Name='Signout...']
+casesEditWorksheetsButton = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/Pane[@Name='Results']//Pane[@ClassName='TPanel'][2]/*[@Name='Edit Worksheets...']
+casesReportContent = //*[@ClassName='TfrmAccession']//*[@Name='Report' and @ClassName='TTabSheet']//*[@ClassName='TRTFViewer']/*[@LocalizedControlType='pane']
+confirmSignoutWindow = ClassName->TfrmConfirmSignout
+resultsLogWindow = ClassName->TfrmDiagRevision
+resultsLogResult = ClassName->TfrmDiagRevision\0Name->Report Log\0ClassName->TttPanel\0ClassName->TPanel\0ClassName->TRTFViewer\0ClassName->TX12
+resultsLogCloseButton = ClassName->TfrmDiagRevision\0ClassName->TPanel\0Name->Close
+#Images Tab
+loadImageWindow	= Name->Select Images To Import
+casesimagesPane = //*[@ClassName='TfrmAccession']/Pane[@ClassName='TPanel']/Tab[@ClassName='TttPageControl']/Pane[@Name='Images']/Pane[@ClassName='TThumbnailList']
+importImageFileNameTextbox = Name->Select Images To Import\0Name->File name:{{2}}
+importImageFileOpenButton = Name->Select Images To Import\0Name->Open
+newLoadedImageWindow = ClassName->TfrmImportedImageProperties
+importImagePropertiesImageLabelTextbox = ClassName->TfrmImportedImageProperties\0ClassName->TTabSheet\0ClassName->TDBEdit{{2}}
+importImagePropertiesImageTypeDropdown = ClassName->TfrmImportedImageProperties\0ClassName->TDBComboBox{{2}} 
+importImagePropertiesDoneButton = ClassName->TfrmImportedImageProperties\0Name->Done
+importImagePropertiesIncludeInReportCheckbox = ClassName->TfrmImportedImageProperties\0Name->Include in patient report
+
+# ************************************* PowerPath AMP
+ampWindow = Name->Advanced Materials Processing - [Diagnostician Station]
+ampLoginWindowServerDropdown = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->PowerPath System Login\0Name->Server:
+ampLoginWindowUsernameTextbox = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->PowerPath System Login\0Name->User name:
+ampLoginWindowPasswordTextbox = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->PowerPath System Login\0Name->Password:
+ampLoginWindowDatabaseDropdown = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->PowerPath System Login\0Name->Database:
+ampLoginWindowOKButton = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->PowerPath System Login\0Name->OK
+ampLoginWindowCancelButton = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->PowerPath System Login\0Name->Cancel
+ampSelectFacilityWindow = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->Select Signout Facility
+ampSelectFacilityFacilityDropdown = //*[starts-with(@Name,'Advanced Materials Processing')]/*[@Name='Select Signout Facility']/*[starts-with(@ClassName,'WindowsForms10.COMBOBOX')]
+ampSelectFacilityOKButton = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->Select Signout Facility\0Name->OK
+ampFileMenuItem = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->menuStrip1\0Name->File
+ampFileMenuExitOption = Name->Advanced Materials Processing - [Diagnostician Station]\0Name->menuStrip1\0Name->File\0Name->Exit
+ampLoginWindow = Name->PowerPath System Login
+
+# ************************************* Client Window page
+powerpathWindow = ClassName->TfrmMain
+mainWindowNeighborhoodButton = //*[@Name='Main Toolbar']/Button[2]
+formListItem = ClassName->TfrmNeighborhood\0ClassName->TppexpListView\0Name->{0}
+neighborhoodFormsTab = ClassName->TfrmMain\0ClassName->TfrmNeighborhood\0Name->Forms
+neighborhoodReportsTab = ClassName->TfrmMain\0ClassName->TfrmNeighborhood\0Name->Reports
+neighborhoodSystemToolsTab = ClassName->TfrmMain\0ClassName->TfrmNeighborhood\0Name->System Tools
+
+# ************************************* Case Status window
+caseStatusWindow = ClassName->TfrmCaseStatus
+caseStatusCurrentStepDropdown = ClassName->TfrmCaseStatus\0Name-> Current status \0ClassName->TttDBLookupCombo
+caseStatusRoutingHistoryTab = ClassName->TfrmCaseStatus\0Name->Routing History
+caseStatusRoutingHistoryGrid = testleft->GridRoutingHistoryCaseStatus
+caseStatusOKButton = ClassName->TfrmCaseStatus\0Name->OK
+
+
+# ************************************* Facility Form
+facilityWindow = ClassName->TfrmFacilitySetup
+facilityCLIAIdTextbox = ClassName->TfrmFacilitySetup\0ClassName->TttPageControl\0ClassName->TTabSheet\0ClassName->TttDBEdit{{1}}
+facilitySaveButton = //*[@ClassName='TfrmMain']/*[@ClassName='TttControlBar']/*[@ClassName='TttToolbar' and @Name='Data Form']/Button[2]
+
+# ************************************* Confirm Window
+confirmWindow = ClassName->TMessageForm
+confirmYesButton = Name->Confirm\0Name->Yes
+confirmNoButton = Name->Confirm\0Name->No
+confirmCancelButton = Name->Confirm\0Name->Cancel
+confirmEditTextbox = ClassName->TfrmConfirmSignout\0ClassName->TEdit
+confirmOKButton = Name->Confirm\0Name->OK
+
+# ************************************* Personnel Form page
+personnelWindow = Name->Personnel
+personnelLastNameTextbox = Name->PowerPath Client\0Name->Personnel\0ClassName->TPanel\0ClassName->TttDBEdit{{4}}
+personnelLoginNameTextbox = Name->PowerPath Client\0Name->Personnel\0Name-> System access \0ClassName->TttDBEdit{{4}}
+
+
+textboxTo = Name->To
+
+

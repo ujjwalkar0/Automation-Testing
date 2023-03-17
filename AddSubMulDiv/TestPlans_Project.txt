@@ -1,0 +1,67 @@
+************** CONFIGURATION ********************
+TestPlan_Name=Calculator Testing
+Project_Name=Calculator
+Project_Version=1.0.0
+AutomationType=Desktop
+AutomationSubType=Protractor
+RecoveryMode=No
+RecoveryExcel=[Recovery Excel Path <Relative paths from TestPlan file directory>]
+DateAndTimeFormat=#MM/dd/yyyy hh:mm#
+
+#DevelopmentMode = false
+*************************************************
+
+**************** Custom CONFIG ****************
+#URL=http://10.10.73.73:81
+#NewURL=http://www.google.com
+URL=http://www.google.com
+*************************************************
+
+**************** Web CONFIG ******************
+#Browser=IE
+Browser=Chrome
+#Browser=Edge
+#Browser=Mozilla
+LogBrowserMemory=Yes
+WaitBeforeClick=0
+WaitUntilTimeOutInSecs=15
+*************************************************
+
+**************** Mobile CONFIG ******************
+MobileConnectionURL=http://127.0.0.1:4723/wd/hub
+*************************************************
+
+**************** Browser CONFIG *****************
+BrowserConfig_IE_UnhandledPromptBehavior=1
+BrowserConfig_IE_RequireWindowFocus=false
+BrowserConfig_IE_EnsureCleanSession=true
+BrowserConfig_Chrome_UnhandledPromptBehavior=1
+BrowserConfig_Edge_UnhandledPromptBehavior=1
+BrowserConfig_Firefox_UnhandledPromptBehavior=1
+*************************************************
+
+************* TEST CASE EXCEL PATH **************
+TestCase_Path=Calculator Script.xlsx
+*************************************************
+
+************* OR PATH ***************************
+OR_Path=OR::Windows_OR.txt
+*************************************************
+
+************* MODULE EXCEL PATH *****************
+#Module will use the OR of parent Test Case Excel
+Module_Path=Module ADD.xlsx
+Module_Path=Module SUB.xlsx
+Module_Path=Module MUL.xlsx
+Module_Path=Module DIV.xlsx
+
+*************************************************
+
+************* HELP ***************************
+#1) Relative path samples:
+#TestCase_Path=..\TestScript.xlsx    (file in parent directory)
+#TestCase_Path=tempDir\TestScript.xlsx    (file in sub directory)
+#TestCase_Path=TestScript.xlsx   (file in current directory)
+#TestCase_Path=\TestScript.xlsx   (file in root directory. eg: D:\TestPlans_Project.txt)
+#TestCase_Path=..\tempDir\TestScript.xlsx (file in another subdirectory under parent directory)
+**********************************************
